@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    font-family: 'Londrina Solid', cursive;
+  }
+  
+#container {
+  width: 650px;
+  height: 650px;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: gold;
+  border-radius: 6px;
+  padding: 10px;
+  border-style: dotted;
+  
+}
+
+h1 {
+  padding: 0;
+  font-size: 50px;
+  margin: 0;
+}
+
+#myCanvas {
+  background: black;
+  display: block;
+  margin: auto;
+  border-radius: 6px;
+  
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10 0 0;
+  border: 2px solid black;
+  padding: 0;
+  background-color: black;
+  border-radius: 6px;
+}  
+
+li {
+
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    
+  }
+
+  #start {
+    margin: 0 0 0 10;
+    background-color: black;
+    color: white;
+    font-family: 'Londrina Solid', cursive;
+    border-radius: 6px;
+
+    font-size: 20px;;
+  }
